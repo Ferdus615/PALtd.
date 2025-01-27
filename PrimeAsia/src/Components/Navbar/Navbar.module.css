@@ -1,0 +1,26 @@
+.nav {
+  background-color: #0b2027;
+  height: 70px;
+  padding: 0 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  color: #77dd77;
+  font-family: Medium;
+  font-size: 24px;
+}
+
+.navlink {
+  color: #77dd77;
+  font-family: Light;
+  font-size: 21.5px;
+}
+.navlink ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}

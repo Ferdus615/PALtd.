@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #0b2027;
+  --white: #cfd0c3;
+  --primary: #1c775a;
+  --secondary: #77dd77;
+  --accent: #94dfe0;
+  --pop: #bfff00;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #cfd0c3;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+@font-face {
+  font-family: Bold;
+  src: url(../fonts/SpaceGrotesk-Bold.ttf);
+}
+@font-face {
+  font-family: Light;
+  src: url(../fonts/SpaceGrotesk-Light.ttf);
+}
+@font-face {
+  font-family: Medium;
+  src: url(../fonts/SpaceGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: Regular;
+  src: url(../fonts/SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+  font-family: SemiBold;
+  src: url(../fonts/SpaceGrotesk-SemiBold.ttf);
+}
+
+/* ----------------------------------------------------------------------------------------------- */
