@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .slogan {
