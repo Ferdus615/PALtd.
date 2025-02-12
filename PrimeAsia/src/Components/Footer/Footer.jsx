@@ -4,7 +4,12 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.paltd}>
-        <img src="../Images/PALtd..png" alt="PAltd." width={"100px"} />
+        <img src="../Images/Logo-PAL.png" alt="PAltd." width={"100px"} />
+        <p>
+          Prime <br />
+          Automations <br />
+          Ltd.
+        </p>
       </div>
 
       <div className={styles.socials}>
@@ -12,27 +17,43 @@ const Footer = () => {
 
         <div className={styles.link}>
           <img src="../Images/facebook.svg" alt="Facebook" width={"20px"} />
-          <a href="#">Facebook</a>
+          <a
+            href="https://www.facebook.com/primeautomationsltd"
+            target="_blank"
+          >
+            Facebook
+          </a>
         </div>
 
         <div className={styles.link}>
           <img src="../Images/twitter.svg" alt="X / Twitter" width={"20px"} />
-          <a href="#">X/Twitter</a>
+          <a href="https://twitter.com/Prime_ltd_bd" target="_blank">
+            X / Twitter
+          </a>
         </div>
 
         <div className={styles.link}>
           <img src="../Images/whatsapp.svg" alt="WhatsApp" width={"20px"} />
-          <a href="#">WhatsApp</a>
+          <a href="https://api.whatsapp.com/send?8801769093465" target="_blank">
+            WhatsApp
+          </a>
         </div>
 
         <div className={styles.link}>
           <img src="../Images/linkedin.svg" alt="linkedin" width={"20px"} />
-          <a href="#">linkedin</a>
+          <a
+            href="https://www.linkedin.com/company/primeautomationsltd/"
+            target="_blank"
+          >
+            linkedin
+          </a>
         </div>
 
         <div className={styles.link}>
           <img src="../Images/youtube.svg" alt="YouTube" width={"20px"} />
-          <a href="#">YouTube</a>
+          <a href="https://www.youtube.com/@primeutomationsltd" target="_blank">
+            YouTube
+          </a>
         </div>
       </div>
       <div className={styles.contacts}>

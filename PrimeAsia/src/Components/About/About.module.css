@@ -1,20 +1,12 @@
 .about {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #cfd0c3;
+  /* background-color: #a7af48; */
+
   padding: 70px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 1fr auto;
-}
-
-.name {
-  grid-column: 1;
-  grid-row: 3;
-
-  color: #1c775a;
-  font-family: Medium;
-  font-size: 65px;
-  line-height: 0.8em;
 }
 
 .title {
@@ -28,6 +20,16 @@
   padding-bottom: 50px;
 }
 
+.photo {
+  grid-column: 1;
+  grid-row: 2;
+}
+.photo img {
+  border-radius: 20px;
+
+  box-shadow: 3px 3px 5px #0b202777;
+}
+
 .text {
   grid-column: 2;
   grid-row: 2;
@@ -39,4 +41,14 @@
 
 .para {
   padding-bottom: 20px;
+}
+
+.name {
+  grid-column: 1;
+  grid-row: 3;
+
+  color: #1c775a;
+  font-family: Medium;
+  font-size: 65px;
+  line-height: 0.8em;
 }

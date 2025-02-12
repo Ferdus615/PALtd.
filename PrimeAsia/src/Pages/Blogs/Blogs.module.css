@@ -1,0 +1,12 @@
+.container {
+  padding: 70px;
+  background-color: #0b2027;
+  height: 100vh;
+
+  color: #cfd0c3;
+  font-family: Bold;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

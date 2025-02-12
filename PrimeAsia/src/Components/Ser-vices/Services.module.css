@@ -1,5 +1,44 @@
 .services {
-  height: 100vh;
-  background-color: #cfd0c3;
+  /* height: 100vh; */
+  /* background-color: #cfd0c3;*/
+  background-color: #dce671;
   padding: 70px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.title {
+  grid-column: 2;
+  grid-row: 1;
+
+  font-family: light;
+  font-size: 21px;
+  color: #0b2027;
+  padding-bottom: 50px;
+}
+
+.list {
+  grid-column: 2;
+  grid-row: 2 / 3;
+
+  font-family: Light;
+  font-size: 28px;
+}
+.list li {
+  list-style: none;
+  line-height: 1.8em;
+  color: #1c775a;
+}
+
+.slogan {
+  grid-column: 1;
+  grid-row: 4;
+  font-family: SemiBold;
+  font-size: 30px;
+  line-height: 0.9em;
+  color: #1c775a;
+
+  padding-top: 50px;
 }

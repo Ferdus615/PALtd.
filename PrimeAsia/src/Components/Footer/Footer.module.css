@@ -1,6 +1,6 @@
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, auto) 1fr;
   grid-template-rows: 1fr repeat(3, auto);
 
   background-color: #1c775a;
@@ -11,14 +11,18 @@
 .paltd {
   grid-column: 1;
   grid-row: 2;
+  font-family: SemiBold;
+  line-height: 0.9em;
+  color: #94dfe0;
 }
 
 .socials {
   grid-column: 2;
   grid-row: 2;
 
-  padding-left: 50px;
-  padding-bottom: 20px;
+  padding: 0 300px 20px 200px;
+  /* padding-left: 50px;
+  padding-bottom: 20px; */
 }
 .stitle {
   font-family: SemiBold;

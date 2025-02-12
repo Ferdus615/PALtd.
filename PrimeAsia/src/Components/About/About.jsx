@@ -3,19 +3,14 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <div className={styles.about}>
-      <div className={styles.name}>
-        <p>
-          Prime
-          <br />
-          Automations
-          <br />
-          Ltd.
-        </p>
-      </div>
-
       <div className={styles.title}>
         <p>About Us | Advance Automation Solution</p>
       </div>
+
+      <div className={styles.photo}>
+        <img src="/Images/cover-photo.webp" alt="Cover Photo" width={"350px"} />
+      </div>
+
       <div className={styles.text}>
         <div className={styles.para}>
           <p>
@@ -41,6 +36,16 @@ const About = () => {
             responsibility.
           </p>
         </div>
+      </div>
+
+      <div className={styles.name}>
+        <p>
+          Prime
+          <br />
+          Automations
+          <br />
+          Ltd.
+        </p>
       </div>
     </div>
   );

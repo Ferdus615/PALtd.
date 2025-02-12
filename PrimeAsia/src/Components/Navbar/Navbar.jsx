@@ -1,24 +1,32 @@
+import { Link, NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className={styles.nav}>
-        <div className={styles.name}>
-          <p>Prime Automations Ltd.</p>
-        </div>
-        <div className={styles.navlink}>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Product</li>
-            <li>News</li>
-            <li>Blogs</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <nav>
+      <div className={styles.name}>
+        <Link to="/">Prime Automations Ltd.</Link>
+      </div>
+      <div className={styles.navlink}>
+        <ul>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/products">Product</NavLink>
+          </li>
+          <li>
+            <NavLink to="/news">News</NavLink>
+          </li>
+          <li>
+            <NavLink to="/blogs">Blogs</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 

@@ -16,11 +16,11 @@ const Services = () => {
           <li>Cutting Room Spare Parts Solution</li>
         </ul>
       </div>
-      <div className={styles.bigtext}>
+      <div className={styles.slogan}>
         <p>
-          Prime
-          <br />
-          Automations
+          Suntainability <br />
+          Through <br />
+          Technology.
         </p>
       </div>
     </div>
