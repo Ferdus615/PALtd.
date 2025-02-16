@@ -1,0 +1,46 @@
+.custom_spotlight_card {
+  display: flex;
+  width: 1000px;
+}
+
+.img_box {
+  width: 366px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  margin-right: 20px;
+  background-color: #cfd0c3;
+}
+.img_box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.para {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 575px;
+  overflow: hidden;
+
+  color: #cfd0c3;
+}
+
+.text {
+  font-size: 35px;
+}
+
+.info {
+  font-family: Light;
+  font-size: 11px;
+  display: flex;
+}
+.info p {
+  margin-right: 35px;
+}
+
+.admin {
+  font-family: Light;
+  font-size: 11px;
+}

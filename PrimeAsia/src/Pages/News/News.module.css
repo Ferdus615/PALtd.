@@ -1,12 +1,20 @@
 .container {
-  padding: 70px;
+  padding: 70px 30px;
   background-color: #0b2027;
-  height: 100vh;
 
   color: #cfd0c3;
   font-family: Bold;
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.title {
+  padding-bottom: 30px;
+  font-size: 50px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.news {
+  display: grid;
+  grid-template-rows: repeat(1fr);
+  gap: 30px;
 }

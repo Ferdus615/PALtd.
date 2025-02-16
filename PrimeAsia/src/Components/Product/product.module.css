@@ -1,0 +1,24 @@
+.custom_spotlight_card {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 400px;
+}
+
+.img_box {
+  width: 366px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  margin-bottom: 40px;
+  background-color: #cfd0c3;
+}
+.img_box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text {
+  font-size: 25px;
+}

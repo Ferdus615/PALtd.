@@ -1,12 +1,18 @@
 .container {
-  padding: 70px;
-  background-color: #0b2027;
-  height: 100vh;
+  padding: 70px 30px;
+  background-color: #222;
 
   color: #cfd0c3;
   font-family: Bold;
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.category {
+  font-size: 30px;
+}
+
+.product {
+  margin: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
 }

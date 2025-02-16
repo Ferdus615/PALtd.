@@ -1,10 +1,11 @@
 import styles from "./Hero.module.css";
+import CountUp from "./CoountUp";
 
 const Hero = () => {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id="home">
       <div className={styles.pal}>
-        <img src="../Images/PALtd..png" alt="PAltd." width={"200px"} />
+        <img src="../Images/PALtd..png" alt="PAltd." width={"150px"} />
       </div>
       <div className={styles.slogan}>
         <p>
@@ -22,19 +23,59 @@ const Hero = () => {
 
       <div className={styles.states}>
         <div className={styles.state}>
-          <h3>25+</h3>
+          <h3>
+            <CountUp
+              from={0}
+              to={25}
+              separator=","
+              direction="up"
+              duration={1}
+              className="count-up-text"
+            />
+            +
+          </h3>
           <p>Years</p>
         </div>
         <div className={styles.state}>
-          <h3>150+</h3>
+          <h3>
+            <CountUp
+              from={0}
+              to={150}
+              separator=","
+              direction="up"
+              duration={1}
+              className="count-up-text"
+            />
+            +
+          </h3>
           <p>Clients</p>
         </div>
         <div className={styles.state}>
-          <h3>10+</h3>
+          <h3>
+            <CountUp
+              from={0}
+              to={10}
+              separator=","
+              direction="up"
+              duration={1}
+              className="count-up-text"
+            />
+            +
+          </h3>
           <p>Partners</p>
         </div>
         <div className={styles.state}>
-          <h3>25+</h3>
+          <h3>
+            <CountUp
+              from={0}
+              to={25}
+              separator=","
+              direction="up"
+              duration={1}
+              className="count-up-text"
+            />
+            +
+          </h3>
           <p>Products</p>
         </div>
       </div>

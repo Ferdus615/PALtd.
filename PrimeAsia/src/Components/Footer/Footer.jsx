@@ -2,9 +2,9 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <div className={styles.footer} id="footer">
       <div className={styles.paltd}>
-        <img src="../Images/Logo-PAL.png" alt="PAltd." width={"100px"} />
+        <img src="../Images/Logo-PAL.png" alt="PAltd." width={"70px"} />
         <p>
           Prime <br />
           Automations <br />

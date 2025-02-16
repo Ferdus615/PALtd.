@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className={styles.navlink}>
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/#home">Home</NavLink>
           </li>
           <li>
             <NavLink to="/products">Product</NavLink>
@@ -22,7 +22,7 @@ const Navbar = () => {
             <NavLink to="/blogs">Blogs</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/#footer">Contact</NavLink>
           </li>
         </ul>
       </div>

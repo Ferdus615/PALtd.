@@ -1,0 +1,44 @@
+.container {
+  margin: 120px 100px;
+  padding: 30px;
+  border: 2px solid #0b2027;
+  border-radius: 5px;
+  background-color: #cfd0c9;
+  color: #0b2027;
+}
+
+.title {
+  font-family: Bold;
+  font-size: 30px;
+}
+.title h2 {
+  padding-bottom: 20px;
+}
+.info {
+  font-family: Light;
+  font-size: 14px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.info a {
+  text-decoration: none;
+  margin-left: 200px;
+  color: #1c775a;
+}
+
+.admin {
+  margin-right: 50px;
+}
+
+.text {
+  font-family: Regular;
+  font-size: 15px;
+}
+.text p {
+  padding-bottom: 10px;
+}
+
+.para {
+  font-size: 21px;
+  text-align: justify;
+}

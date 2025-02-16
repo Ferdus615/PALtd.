@@ -1,19 +1,62 @@
+import { useState } from "react";
 import styles from "./Services.module.css";
 
-const Services = () => {
+export default function Services() {
+  const [activeImage, setActiveImage] = useState("");
+
   return (
-    <div className={styles.services}>
+    <div className={styles.gridContainer}>
       <div className={styles.title}>
         <p>Services We Provide.</p>
       </div>
-      <div className={styles.list}>
-        <ul>
-          <li>CAD/CAM Solution</li>
-          <li>Cutting Room Solution 4.0</li>
-          <li>Textile Dying Machinery</li>
-          <li>Textile Finishing Machinery</li>
-          <li>MES Software Solution</li>
-          <li>Cutting Room Spare Parts Solution</li>
+
+      <div className={styles.imagePanel}>
+        <div
+          className={`${styles.hoverImage} ${activeImage ? styles.active : ""}`}
+          style={{
+            backgroundImage: activeImage ? `url(${activeImage})` : "none",
+          }}
+        ></div>
+      </div>
+
+      <div className={styles.listPanel}>
+        <ul className={styles.list}>
+          <li
+            onMouseEnter={() => setActiveImage("/pic1.png")}
+            onMouseLeave={() => setActiveImage("")}
+          >
+            CAD/CAM Solution
+          </li>
+          <li
+            onMouseEnter={() => setActiveImage("/PIC.png")}
+            onMouseLeave={() => setActiveImage("")}
+          >
+            Cutting Room Solution 4.0
+          </li>
+          <li
+            onMouseEnter={() => setActiveImage("/pic1.png")}
+            onMouseLeave={() => setActiveImage("")}
+          >
+            Textile Dying Machinery
+          </li>
+          <li
+            onMouseEnter={() => setActiveImage("/PIC.png")}
+            onMouseLeave={() => setActiveImage("")}
+          >
+            Textile Finishing Machinery
+          </li>
+          <li
+            onMouseEnter={() => setActiveImage("/pic1.png")}
+            onMouseLeave={() => setActiveImage("")}
+          >
+            MES Software Solution
+          </li>
+          <li
+            onMouseEnter={() => setActiveImage("/PIC.png")}
+            onMouseLeave={() => setActiveImage("")}
+          >
+            Cutting Room Spare Parts Solution
+          </li>
         </ul>
       </div>
       <div className={styles.slogan}>
@@ -25,6 +68,4 @@ const Services = () => {
       </div>
     </div>
   );
-};
-
-export default Services;
+}
