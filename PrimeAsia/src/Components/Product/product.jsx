@@ -1,4 +1,4 @@
-import styles from "./Product.module.css";
+import styles from "./product.module.css";
 import SpotlightCard from "../SpotlightCard/SpotlightCard";
 
 const Product = (props) => {

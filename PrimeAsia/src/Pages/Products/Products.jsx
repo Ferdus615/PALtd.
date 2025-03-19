@@ -10,7 +10,6 @@ function Products() {
           <h3>Cutting Room 4.0</h3>
         </div>
         <div className={styles.product}>
-          
           <Product
             text="Audaces ICF"
             img="./product/ICF.webp"
